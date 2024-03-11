@@ -150,6 +150,8 @@ Depends: ${misc:Depends},
          droidian-quirks-lollypop-dummy,
          getcutout,
          nfcd-tools,
+         fwupd,
+         fwupd-hybris,
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
