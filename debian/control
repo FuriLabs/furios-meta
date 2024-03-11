@@ -1,13 +1,13 @@
-Source: droidian-meta
-Maintainer: Eugenio Paolantonio (g7) <eugenio@droidian.org>
+Source: furios-meta
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/droidian-meta
-Vcs-Git: https://github.com/droidian/droidian-meta.git
+Vcs-Browser: https://github.com/furilabs/furios-meta
+Vcs-Git: https://github.com/furilabs/furios-meta.git
 
-Package: droidian-base
+Package: furios-base
 Architecture: all
 Depends: ${misc:Depends},
          alsa-utils,
@@ -48,7 +48,6 @@ Depends: ${misc:Depends},
          callaudiod,
          runonce,
          systemd-resolved,
-#         droidian-quirks-brightness,
          droidian-quirks-hostname,
          droidian-quirks-waydroid,
          droidian-quirks-systemd,
@@ -67,15 +66,14 @@ Depends: ${misc:Depends},
          droidian-fpd-client,
          dialog,
          mtp-server,
-Conflicts: droidian-upgrade-trixie
-Description: Droidian metapackages - base
+Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
- packages for the Droidian installation.
+ packages for the FuriOS installation.
 
-Package: droidian-phosh-minimal
+Package: furios-phosh-minimal
 Architecture: all
 Depends: ${misc:Depends},
-         droidian-base (= ${binary:Version}),
+         furios-base (= ${binary:Version}),
          droidian-phosh-default-settings,
          adaptation-hybris-phosh,
          chatty,
@@ -102,30 +100,26 @@ Depends: ${misc:Depends},
          droidian-quirks-initial-setup,
          droidian-quirks-keyring,
          droidian-quirks-pwquality,
-Breaks: droidian-minimal (<< 22+git20211206000000)
-Replaces: droidian-minimal (<< 22+git20211206000000)
-Description: Droidian metapackages - minimal phosh environment
+Description: FuriOS metapackages - minimal phosh environment
  This metapackage depends on a bunch of essential
- packages for the droidian installation with
+ packages for the FuriOS installation with
  the phosh mobile shell.
 
-Package: droidian-phosh-phone
+Package: furios-phosh-phone
 Architecture: all
 Depends: ${misc:Depends},
-         droidian-phosh-minimal (= ${binary:Version}),
+         furios-phosh-minimal (= ${binary:Version}),
          phosh-phone,
          mobile-broadband-provider-info,
          device-chassis-handset,
-Breaks: droidian-phone (<< 22+git20211206000000)
-Replaces: droidian-phone (<< 22+git20211206000000)
-Description: Droidian metapackages - addons for mobile phones
+Description: FuriOS metapackages - addons for mobile phones
  This metapackage depends on a bunch of packages that
  make phone-related stuff work.
 
-Package: droidian-phosh-full
+Package: furios-phosh-full
 Architecture: all
 Depends: ${misc:Depends},
-         droidian-phosh-minimal (= ${binary:Version}),
+         furios-phosh-minimal (= ${binary:Version}),
          phosh-full,
          phosh-tour,
          evince,
@@ -156,13 +150,11 @@ Depends: ${misc:Depends},
          droidian-quirks-lollypop-dummy,
          getcutout,
          nfcd-tools,
-Breaks: droidian-full (<< 22+git20211206000000)
-Replaces: droidian-full (<< 22+git20211206000000)
-Description: Droidian metapackages - full phosh environment
+Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
 
-Package: droidian-devtools
+Package: furios-devtools
 Architecture: all
 Depends: ${misc:Depends},
          openssh-server,
@@ -183,11 +175,11 @@ Depends: ${misc:Depends},
          psutils,
          inxi,
          dbus-x11,
-Description: Droidian metapackages - devtools
+Description: FuriOS metapackages - devtools
  This metapackage depends on a bunch of packages that
  aid development.
 
-Package: droidian-extras
+Package: furios-extras
 Architecture: all
 Depends: ${misc:Depends},
          webext-ublock-origin-firefox,
@@ -208,27 +200,6 @@ Depends: ${misc:Depends},
          libtk8.6,
          qt6-gtk-platformtheme,
          qt6-wayland
-Description: Droidian metapackages - extras
+Description: FuriOS metapackages - extras
  This metapackage depends on a bunch of packages that
  improve user experience
-
-Package: droidian-minimal
-Architecture: all
-Depends: droidian-phosh-minimal
-Description: Droidian metapackages - minimal phosh environment -- transitional package
- This package is a transitional package. Feel free to
- remove it.
-
-Package: droidian-phone
-Architecture: all
-Depends: droidian-phosh-phone
-Description: Droidian metapackages - addons for mobile phones -- transitional package
- This package is a transitional package. Feel free to
- remove it.
-
-Package: droidian-full
-Architecture: all
-Depends: droidian-phosh-full
-Description: Droidian metapackages - full phosh environment -- transitional package
- This package is a transitional package. Feel free to
- remove it.

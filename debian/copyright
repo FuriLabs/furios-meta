@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: droidian-meta
-Source: https://github.com/droidian/droidian-meta
+Upstream-Name: furios-meta
+Source: https://github.com/furilabs/furios-meta
 
 Files: *
-Copyright: 2020 Eugenio "g7" Paolantonio <me@medesimo.eu>
+Copyright: 2024 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2020 Eugenio "g7" Paolantonio <me@medesimo.eu>
+Copyright: 2024 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 License: BSD-3-clause
