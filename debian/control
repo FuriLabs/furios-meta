@@ -69,6 +69,7 @@ Depends: ${misc:Depends},
          droidian-fpd-client,
          dialog,
          mtp-server,
+         droidian-camera,
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation.
