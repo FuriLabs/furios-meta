@@ -71,6 +71,8 @@ Depends: ${misc:Depends},
          dialog,
          mtp-server,
          droidian-camera,
+         bluez-obexd,
+         obex-capabilities,
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation.
@@ -159,7 +161,6 @@ Depends: ${misc:Depends},
          nfcd-tools,
          fwupd,
          fwupd-hybris,
-         obex-capabilities,
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
