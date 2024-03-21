@@ -139,6 +139,7 @@ Depends: ${misc:Depends},
          gnome-usage,
          gnome-weather,
          gnome-console,
+         gnome-bluetooth,
          phosh-plugins,
          phosh-mobile-settings,
          portfolio-filemanager,
@@ -158,6 +159,7 @@ Depends: ${misc:Depends},
          nfcd-tools,
          fwupd,
          fwupd-hybris,
+         obex-capabilities,
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
