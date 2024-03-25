@@ -189,7 +189,8 @@ Depends: ${misc:Depends},
          htop,
          curl,
          gstreamer1.0-tools,
-         gstreamer1.0-droid-tools
+         gstreamer1.0-droid-tools,
+         fakeroot,
 Description: FuriOS metapackages - devtools
  This metapackage depends on a bunch of packages that
  aid development.
