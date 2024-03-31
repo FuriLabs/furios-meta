@@ -160,6 +160,7 @@ Depends: ${misc:Depends},
          nfcd-tools,
          fwupd,
          fwupd-hybris,
+         rygel,
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
