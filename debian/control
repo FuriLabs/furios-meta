@@ -192,9 +192,10 @@ Depends: ${misc:Depends},
          gstreamer1.0-droid-tools,
          fakeroot,
          ofonoctl,
+         ncdu,
 Description: FuriOS metapackages - devtools
  This metapackage depends on a bunch of packages that
- aid development.
+ aid development and building ports.
 
 Package: furios-buildtools
 Architecture: all
