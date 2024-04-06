@@ -196,6 +196,21 @@ Description: FuriOS metapackages - devtools
  This metapackage depends on a bunch of packages that
  aid development.
 
+Package: furios-buildtools
+Architecture: all
+Depends: ${misc:Depends},
+         furios-devtools (= ${binary:Version}),
+         releng-tools,
+         build-essential,
+         debhelper,
+         meson,
+         valac,
+         pkg-config,
+         cmake,
+Description: FuriOS metapackages - buildtools
+ This metapackage depends on a bunch of packages that
+ aid building other packages.
+
 Package: furios-extras
 Architecture: all
 Depends: ${misc:Depends},
