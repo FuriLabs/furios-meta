@@ -195,6 +195,7 @@ Depends: ${misc:Depends},
          fakeroot,
          ofonoctl,
          ncdu,
+         libnotify-bin,
 Description: FuriOS metapackages - devtools
  This metapackage depends on a bunch of packages that
  aid development and building ports.
