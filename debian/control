@@ -219,7 +219,6 @@ Package: furios-extras
 Architecture: all
 Depends: ${misc:Depends},
          webext-ublock-origin-firefox,
-         qgnomeplatform-qt5,
          fonts-crosextra-caladea,
          fonts-crosextra-carlito,
          network-manager-openvpn-gnome,
@@ -234,7 +233,6 @@ Depends: ${misc:Depends},
          chromium-sandbox,
          libtcl8.6,
          libtk8.6,
-         qt6-gtk-platformtheme,
          qt6-wayland,
          qtwayland5,
 Description: FuriOS metapackages - extras
