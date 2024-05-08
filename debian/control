@@ -87,7 +87,7 @@ Package: furios-phosh-minimal
 Architecture: all
 Depends: ${misc:Depends},
          furios-base (= ${binary:Version}),
-         droidian-phosh-default-settings,
+         furios-default-settings,
          adaptation-hybris-phosh,
          chatty,
          at-spi2-core,
