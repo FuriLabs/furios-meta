@@ -79,6 +79,7 @@ Depends: ${misc:Depends},
          plymouth-theme-droidian,
          xdg-utils,
          dex,
+         droidcam2v4l2,
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation.
