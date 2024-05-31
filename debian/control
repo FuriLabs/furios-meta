@@ -165,6 +165,9 @@ Depends: ${misc:Depends},
          fwupd-hybris,
          rygel,
          isodrive,
+         pqcli,
+         gsd-adapter,
+         pqdbus
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
