@@ -81,6 +81,7 @@ Depends: ${misc:Depends},
          xdg-utils,
          dex,
          droidcam2v4l2,
+Essential: yes
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation.
@@ -112,6 +113,7 @@ Depends: ${misc:Depends},
          furios-quirks-initial-setup,
          furios-quirks-keyring,
          furios-quirks-pwquality,
+Essential: yes
 Description: FuriOS metapackages - minimal phosh environment
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation with
@@ -124,6 +126,7 @@ Depends: ${misc:Depends},
          phosh-phone,
          mobile-broadband-provider-info,
          device-chassis-handset,
+Essential: yes
 Description: FuriOS metapackages - addons for mobile phones
  This metapackage depends on a bunch of packages that
  make phone-related stuff work.
@@ -168,6 +171,7 @@ Depends: ${misc:Depends},
          pqcli,
          gsd-adapter,
          pqdbus
+Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
