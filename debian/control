@@ -1,7 +1,7 @@
 Source: furios-meta
 Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: metapackages
-Priority: optional
+Priority: required
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/furilabs/furios-meta
