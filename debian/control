@@ -240,6 +240,7 @@ Depends: ${misc:Depends},
          libtk8.6,
          qt6-wayland,
          qtwayland5,
+         waydroid,
 Description: FuriOS metapackages - extras
  This metapackage depends on a bunch of packages that
  improve user experience
