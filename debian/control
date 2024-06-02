@@ -143,8 +143,6 @@ Depends: ${misc:Depends},
          gnome-calendar,
          gnome-maps,
          gnome-software,
-         gnome-software-plugin-flatpak,
-         gnome-software-plugin-deb,
          gnome-usage,
          gnome-console,
          gnome-bluetooth,
@@ -243,6 +241,8 @@ Depends: ${misc:Depends},
          qtwayland5,
          libqt5gui5-gles,
          waydroid,
+         gnome-software-plugin-flatpak,
+         gnome-software-plugin-deb,
 Description: FuriOS metapackages - extras
  This metapackage depends on a bunch of packages that
  improve user experience
