@@ -165,7 +165,9 @@ Depends: ${misc:Depends},
          isodrive,
          pqcli,
          gsd-adapter,
-         pqdbus
+         pqdbus,
+         fprintd,
+         fpd2fprintd,
 Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
