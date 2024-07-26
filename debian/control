@@ -165,6 +165,7 @@ Depends: ${misc:Depends},
          fprintd,
          fpd2fprintd,
          furios-initial-setup,
+         libgtk-4-media-gstreamer,
 Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
