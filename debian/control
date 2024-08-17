@@ -82,6 +82,7 @@ Depends: ${misc:Depends},
          xdg-utils,
          dex,
          droidcam2v4l2,
+         exfatprogs,
 Essential: yes
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
