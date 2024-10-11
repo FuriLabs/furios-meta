@@ -172,6 +172,7 @@ Depends: ${misc:Depends},
          libgtk-4-media-gstreamer,
          gesture-sensors,
          furios-app-stktool,
+         sound-theme-phosh,
 Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
