@@ -85,6 +85,8 @@ Depends: ${misc:Depends},
          droidcam2v4l2,
          exfatprogs,
          pkexec,
+         packagekit,
+         packagekit-tools,
 Essential: yes
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
