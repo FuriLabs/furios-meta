@@ -259,6 +259,7 @@ Depends: ${misc:Depends},
          waydroid,
          gnome-software-plugin-flatpak,
          gnome-software-plugin-deb,
+         qml-module-qtquick-localstorage,
 Description: FuriOS metapackages - extras
  This metapackage depends on a bunch of packages that
  improve user experience
