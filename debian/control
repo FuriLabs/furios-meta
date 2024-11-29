@@ -260,6 +260,8 @@ Depends: ${misc:Depends},
          gnome-software-plugin-flatpak,
          gnome-software-plugin-deb,
          qml-module-qtquick-localstorage,
+         qgnomeplatform-qt5,
+         qgnomeplatform-qt6,
 Description: FuriOS metapackages - extras
  This metapackage depends on a bunch of packages that
  improve user experience
