@@ -176,6 +176,8 @@ Depends: ${misc:Depends},
          gesture-sensors,
          furios-app-stktool,
          sound-theme-phosh,
+         breeze-icon-theme,
+         kf6-breeze-icon-theme,
 Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
