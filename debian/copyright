@@ -3,11 +3,11 @@ Upstream-Name: furios-meta
 Source: https://github.com/furilabs/furios-meta
 
 Files: *
-Copyright: 2024 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2025 Bardia Moshiri <bardia@furilabs.com>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2024 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2025 Bardia Moshiri <bardia@furilabs.com>
 License: BSD-3-clause
 
 License: BSD-3-clause

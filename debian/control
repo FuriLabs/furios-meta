@@ -3,7 +3,7 @@ Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: metapackages
 Priority: required
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.5.0.3
+Standards-Version: 4.7.0
 Vcs-Browser: https://github.com/furilabs/furios-meta
 Vcs-Git: https://github.com/furilabs/furios-meta.git
 
