@@ -117,6 +117,7 @@ Depends: ${misc:Depends},
          furios-quirks-gnome,
          furios-quirks-keyring,
          furios-quirks-pwquality,
+         furios-phosh-plugins,
 Essential: yes
 Description: FuriOS metapackages - minimal phosh environment
  This metapackage depends on a bunch of essential
