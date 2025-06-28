@@ -85,7 +85,6 @@ Depends: ${misc:Depends},
          pkexec,
          irqbalance,
          aptkit,
-Essential: yes
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation.
@@ -118,7 +117,6 @@ Depends: ${misc:Depends},
          furios-quirks-keyring,
          furios-quirks-pwquality,
          furios-phosh-plugins,
-Essential: yes
 Description: FuriOS metapackages - minimal phosh environment
  This metapackage depends on a bunch of essential
  packages for the FuriOS installation with
@@ -131,7 +129,6 @@ Depends: ${misc:Depends},
          phosh-phone,
          mobile-broadband-provider-info,
          device-chassis-handset,
-Essential: yes
 Description: FuriOS metapackages - addons for mobile phones
  This metapackage depends on a bunch of packages that
  make phone-related stuff work.
@@ -180,7 +177,6 @@ Depends: ${misc:Depends},
          sound-theme-phosh,
          breeze-icon-theme,
          kf6-breeze-icon-theme,
-Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
