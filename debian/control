@@ -85,6 +85,7 @@ Depends: ${misc:Depends},
          pkexec,
          irqbalance,
          aptkit,
+         lmkd,
 Essential: yes
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
