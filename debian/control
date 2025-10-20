@@ -118,6 +118,7 @@ Depends: ${misc:Depends},
          furios-quirks-gnome,
          furios-quirks-keyring,
          furios-quirks-pwquality,
+         furios-quirks-osk,
          furios-phosh-plugins,
 Essential: yes
 Description: FuriOS metapackages - minimal phosh environment
