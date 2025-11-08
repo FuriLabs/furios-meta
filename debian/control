@@ -96,6 +96,7 @@ Architecture: all
 Depends: ${misc:Depends},
          furios-base (= ${binary:Version}),
          furios-default-settings,
+         furios-device-config,
          adaptation-hybris-phosh,
          chatty,
          at-spi2-core,
