@@ -210,6 +210,7 @@ Depends: ${misc:Depends},
          libnotify-bin,
          furios-app-branchy,
          tmux,
+         batman-system-monitor,
 Description: FuriOS metapackages - devtools
  This metapackage depends on a bunch of packages that
  aid development and building ports.
