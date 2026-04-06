@@ -154,7 +154,6 @@ Depends: ${misc:Depends},
          phosh-mobile-settings,
          portfolio-filemanager,
          loupe,
-         furios-firefox-tweaks,
          celluloid,
          gapless,
          getcutout,
@@ -176,6 +175,7 @@ Depends: ${misc:Depends},
          sound-theme-phosh,
          breeze-icon-theme,
          kf6-breeze-icon-theme,
+         mobile-config-firefox-furios,
 Essential: yes
 Description: FuriOS metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
