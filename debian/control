@@ -89,7 +89,7 @@ Description: FuriOS metapackages - base
 Package: furios-phosh-minimal
 Architecture: all
 Depends: ${misc:Depends},
-         furios-base (= ${binary:Version}),
+         furios-base,
          furios-default-settings,
          furios-device-config,
          adaptation-hybris-phosh,
@@ -124,7 +124,7 @@ Description: FuriOS metapackages - minimal phosh environment
 Package: furios-phosh-phone
 Architecture: all
 Depends: ${misc:Depends},
-         furios-phosh-minimal (= ${binary:Version}),
+         furios-phosh-minimal,
          phosh-phone,
          mobile-broadband-provider-info,
          device-chassis-handset,
@@ -136,7 +136,7 @@ Description: FuriOS metapackages - addons for mobile phones
 Package: furios-phosh-full
 Architecture: all
 Depends: ${misc:Depends},
-         furios-phosh-minimal (= ${binary:Version}),
+         furios-phosh-minimal,
          phosh-full,
          geary,
          papers,
@@ -218,7 +218,7 @@ Description: FuriOS metapackages - devtools
 Package: furios-buildtools
 Architecture: all
 Depends: ${misc:Depends},
-         furios-devtools (= ${binary:Version}),
+         furios-devtools,
          releng-tools,
          build-essential,
          debhelper,
