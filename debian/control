@@ -77,6 +77,7 @@ Depends: ${misc:Depends},
          aptkit,
          lmkd,
          upower,
+         xdg-user-dirs,
 Essential: yes
 Description: FuriOS metapackages - base
  This metapackage depends on a bunch of essential
